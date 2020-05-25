@@ -21,7 +21,7 @@ class Supreme:
         global time_start, driver
         time_start  = datetime.now()
         print('01 - Executed shopping')
-        driver = webdriver.Chrome(executable_path=r"C:\Users\laksh\Desktop\Scrapers\Supreme\chromedriver.exe")
+        driver = webdriver.Chrome(executable_path=r"C:\Users\laksh\Desktop\Scrapers\Supreme-bot\chromedriver.exe")
         driver.get('https://www.supremenewyork.com/shop/all')
         assert 'All - Shop - Supreme' in driver.title
         print('02 - Supreme loaded')
